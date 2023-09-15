@@ -1,0 +1,204 @@
+*{
+    background:rgb(229, 235, 235);
+    margin: 0%;
+    font-family:sans-serif;
+}
+
+h2{
+    text-align: center;
+    padding:40px 10px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+.section{
+    display: flex;
+    
+}
+p{
+    background-color:rgb(109, 109, 109);
+    padding-top: 20px;
+}
+.card1{
+    border: 2px solid;
+    margin: 50px 20px;
+    padding: 20px;
+    background-color: rgb(109, 109, 109);
+}
+
+.card2{
+    border: 2px solid;
+    margin: 50px 20px;
+    padding: 20px;
+    background-color: rgb(109, 109, 109);
+}
+
+.card3{
+    border: 2px solid;
+    margin: 50px 20px;
+    padding: 20px;
+    background-color: rgb(109, 109, 109);
+}
+
+
+#Chicken{
+
+    border: 2px solid;
+    padding: 5px 30px 5px 30px;
+    background-color: rgb(10, 207, 207);
+    margin-top: -23px;
+    margin-right: -22px;
+    float:  right;
+}
+
+ #Beef{
+    border: 2px solid;
+    padding: 5px 30px 5px 30px;
+    background-color: rgb(17, 139, 100);
+    margin-top: -23px;
+    margin-right: -22px;
+    float:  right;
+}
+
+#Sushi{
+    border: 2px solid;
+    padding: 5px 30px 5px 30px;
+    background-color: rgb(119, 35, 117);
+    margin-top: -23px;
+    margin-right: -22px;
+    float:  right;
+}
+
+
+/* for desktop view */
+@media (min-width:991px){
+
+h2{
+    text-align: center;
+    padding:40px 10px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+.section{
+    display: flex;
+    
+}
+p{
+    background-color:rgb(109, 109, 109);
+    padding-top: 20px;
+}
+.card1{
+    border: 2px solid;
+    margin: 50px 20px;
+    padding: 20px;
+    background-color: rgb(109, 109, 109);
+}
+
+.card2{
+    border: 2px solid;
+    margin: 50px 20px;
+    padding: 20px;
+    background-color: rgb(109, 109, 109);
+}
+
+.card3{
+    border: 2px solid;
+    margin: 50px 20px;
+    padding: 20px;
+    background-color: rgb(109, 109, 109);
+}
+
+
+}
+
+
+/* for tablet view */
+@media (min-width:768px) and (max-width:991px){
+  
+h2{
+    position: relative;
+    left: -78px;
+    padding:40px 10px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+
+.card1{
+    border: 2px solid;
+    margin: 50px 25px;
+    padding: 20px;
+    background-color: rgb(109, 109, 109);
+    width: 25%;
+   
+}
+
+.card2{
+    width: 25%;
+    border: 2px solid;
+    margin: 50px 20px;
+    padding: 20px;
+    background-color: rgb(109, 109, 109);
+}
+
+.card3{
+    width: 63.2%;
+    position:absolute;
+    border: 2px solid;
+    margin: 50px 20px;
+    padding-left: 10px;
+    margin-top: 350px;
+    background-color: rgb(109, 109, 109);
+}
+}
+
+
+/* for mobile view */
+@media (max-width:768px){
+    h2{
+    left: 10px;
+    padding-top: 60px;
+    padding-bottom: 0px;
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+.section{
+    position: absolute;
+    display: block;
+    left: 20px;
+  
+}
+
+.card1{
+    border: 2px solid;
+    margin: 50px 25px;
+    padding: 20px;
+    background-color: rgb(109, 109, 109);
+    width: 70%;
+   
+}
+
+.card2{
+    width: 70%;
+    border: 2px solid;
+    margin: 50px 20px;
+    padding: 20px;
+    background-color: rgb(109, 109, 109);
+}
+
+.card3{
+    width:70%;
+
+    
+    border: 2px solid;
+    margin: 50px 20px;
+
+ 
+    background-color: rgb(109, 109, 109);
+}
+}
